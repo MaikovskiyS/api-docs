@@ -1,0 +1,19 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "Introduction",
+  "description": "Terms",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "next": {
+    "title": "Workflow",
+    "permalink": "/workflow"
+  }
+}

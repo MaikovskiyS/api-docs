@@ -1,0 +1,23 @@
+{
+  "unversionedId": "gift-issue",
+  "id": "gift-issue",
+  "title": "Gift Issue",
+  "description": "Documentation for issuing gift spins...",
+  "source": "@site/docs/gift-issue.md",
+  "sourceDirName": ".",
+  "slug": "/gift-issue",
+  "permalink": "/docs/gift-issue",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Rollback",
+    "permalink": "/docs/rollback"
+  },
+  "next": {
+    "title": "Cancel Gift",
+    "permalink": "/docs/gift-cancel"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "rollback",
+  "id": "rollback",
+  "title": "Rollback",
+  "description": "POST WALLET_URL/rollback",
+  "source": "@site/docs/rollback.md",
+  "sourceDirName": ".",
+  "slug": "/rollback",
+  "permalink": "/rollback",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Play",
+    "permalink": "/play"
+  },
+  "next": {
+    "title": "Create Gift Issue",
+    "permalink": "/gift-create"
+  }
+}

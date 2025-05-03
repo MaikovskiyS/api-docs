@@ -1,0 +1,98 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "balance",
+              "path": "/balance",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "errors",
+              "path": "/errors",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "games",
+              "path": "/games",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "gift-cancel",
+              "path": "/gift-cancel",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "gift-create",
+              "path": "/gift-create",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "index",
+              "path": "/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "play",
+              "path": "/play",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "promo",
+              "path": "/promo",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "rollback",
+              "path": "/rollback",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "security",
+              "path": "/security",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "session-create",
+              "path": "/session-create",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "session-demo",
+              "path": "/session-demo",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "testing",
+              "path": "/testing",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "workflow",
+              "path": "/workflow",
+              "sidebar": "sidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "sidebar": {
+              "link": {
+                "path": "/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

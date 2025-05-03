@@ -1,0 +1,14 @@
+{
+  "unversionedId": "test-page",
+  "id": "test-page",
+  "title": "Test Page",
+  "description": "This is a test page to check if Docusaurus can render new documentation files correctly.",
+  "source": "@site/docs/test-page.md",
+  "sourceDirName": ".",
+  "slug": "/test-page",
+  "permalink": "/docs/test-page",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

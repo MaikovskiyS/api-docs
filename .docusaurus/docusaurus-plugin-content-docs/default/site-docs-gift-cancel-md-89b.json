@@ -1,0 +1,23 @@
+{
+  "unversionedId": "gift-cancel",
+  "id": "gift-cancel",
+  "title": "Cancel Gift Issue",
+  "description": "POST PROVIDER_URL/api/gifts/cancel",
+  "source": "@site/docs/gift-cancel.md",
+  "sourceDirName": ".",
+  "slug": "/gift-cancel",
+  "permalink": "/gift-cancel",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Create Gift Issue",
+    "permalink": "/gift-create"
+  },
+  "next": {
+    "title": "Partner Checklist for QA Testing",
+    "permalink": "/testing"
+  }
+}

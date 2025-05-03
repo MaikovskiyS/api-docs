@@ -1,0 +1,449 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/maikovskiy/docusaurus-api-docs/sidebars.js",
+          "contentPath": "/home/maikovskiy/docusaurus-api-docs/docs",
+          "contentPathLocalized": "/home/maikovskiy/docusaurus-api-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "balance",
+              "id": "balance",
+              "title": "Get Balance",
+              "description": "POST WALLET_URL/play",
+              "source": "@site/docs/balance.md",
+              "sourceDirName": ".",
+              "slug": "/balance",
+              "permalink": "/balance",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Create Demo Session",
+                "permalink": "/session-demo"
+              },
+              "next": {
+                "title": "Play",
+                "permalink": "/play"
+              }
+            },
+            {
+              "unversionedId": "errors",
+              "id": "errors",
+              "title": "Error Format",
+              "description": "All errors come with HTTP STATUS 400. In json format. The exception is the request signature",
+              "source": "@site/docs/errors.md",
+              "sourceDirName": ".",
+              "slug": "/errors",
+              "permalink": "/errors",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Security",
+                "permalink": "/security"
+              },
+              "next": {
+                "title": "Create Real Session",
+                "permalink": "/session-create"
+              }
+            },
+            {
+              "unversionedId": "games",
+              "id": "games",
+              "title": "Games",
+              "description": "This section provides information about the games available for integration with our partners.",
+              "source": "@site/docs/games.md",
+              "sourceDirName": ".",
+              "slug": "/games",
+              "permalink": "/games",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Partner Checklist for QA Testing",
+                "permalink": "/testing"
+              },
+              "next": {
+                "title": "Promo",
+                "permalink": "/promo"
+              }
+            },
+            {
+              "unversionedId": "gift-cancel",
+              "id": "gift-cancel",
+              "title": "Cancel Gift Issue",
+              "description": "POST PROVIDER_URL/api/gifts/cancel",
+              "source": "@site/docs/gift-cancel.md",
+              "sourceDirName": ".",
+              "slug": "/gift-cancel",
+              "permalink": "/gift-cancel",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Create Gift Issue",
+                "permalink": "/gift-create"
+              },
+              "next": {
+                "title": "Partner Checklist for QA Testing",
+                "permalink": "/testing"
+              }
+            },
+            {
+              "unversionedId": "gift-create",
+              "id": "gift-create",
+              "title": "Create Gift Issue",
+              "description": "POST PROVIDER_URL/api/gifts/issue",
+              "source": "@site/docs/gift-create.md",
+              "sourceDirName": ".",
+              "slug": "/gift-create",
+              "permalink": "/gift-create",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Rollback",
+                "permalink": "/rollback"
+              },
+              "next": {
+                "title": "Cancel Gift Issue",
+                "permalink": "/gift-cancel"
+              }
+            },
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "Introduction",
+              "description": "Terms",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "next": {
+                "title": "Workflow",
+                "permalink": "/workflow"
+              }
+            },
+            {
+              "unversionedId": "play",
+              "id": "play",
+              "title": "Play",
+              "description": "POST WALLET_URL/play",
+              "source": "@site/docs/play.md",
+              "sourceDirName": ".",
+              "slug": "/play",
+              "permalink": "/play",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Get Balance",
+                "permalink": "/balance"
+              },
+              "next": {
+                "title": "Rollback",
+                "permalink": "/rollback"
+              }
+            },
+            {
+              "unversionedId": "promo",
+              "id": "promo",
+              "title": "Promo",
+              "description": "This page provides access to promotional materials for our partners. Here you can find marketing assets, banners, and other resources to help promote Gamebeat products and games.",
+              "source": "@site/docs/promo.md",
+              "sourceDirName": ".",
+              "slug": "/promo",
+              "permalink": "/promo",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Games",
+                "permalink": "/games"
+              }
+            },
+            {
+              "unversionedId": "rollback",
+              "id": "rollback",
+              "title": "Rollback",
+              "description": "POST WALLET_URL/rollback",
+              "source": "@site/docs/rollback.md",
+              "sourceDirName": ".",
+              "slug": "/rollback",
+              "permalink": "/rollback",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Play",
+                "permalink": "/play"
+              },
+              "next": {
+                "title": "Create Gift Issue",
+                "permalink": "/gift-create"
+              }
+            },
+            {
+              "unversionedId": "security",
+              "id": "security",
+              "title": "Security",
+              "description": "All requests should be signed using HMAC-SHA256 with AUTH_TOKEN as key and request body as message.",
+              "source": "@site/docs/security.md",
+              "sourceDirName": ".",
+              "slug": "/security",
+              "permalink": "/security",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Workflow",
+                "permalink": "/workflow"
+              },
+              "next": {
+                "title": "Error Format",
+                "permalink": "/errors"
+              }
+            },
+            {
+              "unversionedId": "session-create",
+              "id": "session-create",
+              "title": "Create Real Session",
+              "description": "POST PROVIDER_URL/api/sessions/real",
+              "source": "@site/docs/session-create.md",
+              "sourceDirName": ".",
+              "slug": "/session-create",
+              "permalink": "/session-create",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Error Format",
+                "permalink": "/errors"
+              },
+              "next": {
+                "title": "Create Demo Session",
+                "permalink": "/session-demo"
+              }
+            },
+            {
+              "unversionedId": "session-demo",
+              "id": "session-demo",
+              "title": "Create Demo Session",
+              "description": "POST PROVIDER_URL/api/sessions/demo",
+              "source": "@site/docs/session-demo.md",
+              "sourceDirName": ".",
+              "slug": "/session-demo",
+              "permalink": "/session-demo",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Create Real Session",
+                "permalink": "/session-create"
+              },
+              "next": {
+                "title": "Get Balance",
+                "permalink": "/balance"
+              }
+            },
+            {
+              "unversionedId": "testing",
+              "id": "testing",
+              "title": "Partner Checklist for QA Testing",
+              "description": "Please complete the following actions to enable our QA team to start testing the integration:",
+              "source": "@site/docs/testing.md",
+              "sourceDirName": ".",
+              "slug": "/testing",
+              "permalink": "/testing",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Cancel Gift Issue",
+                "permalink": "/gift-cancel"
+              },
+              "next": {
+                "title": "Games",
+                "permalink": "/games"
+              }
+            },
+            {
+              "unversionedId": "workflow",
+              "id": "workflow",
+              "title": "Workflow",
+              "description": "",
+              "source": "@site/docs/workflow.md",
+              "sourceDirName": ".",
+              "slug": "/workflow",
+              "permalink": "/workflow",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Security",
+                "permalink": "/security"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "sidebar": [
+              {
+                "type": "doc",
+                "id": "index"
+              },
+              {
+                "type": "doc",
+                "id": "workflow"
+              },
+              {
+                "type": "doc",
+                "id": "security"
+              },
+              {
+                "type": "doc",
+                "id": "errors"
+              },
+              {
+                "type": "category",
+                "label": "Launch Game",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "session-create"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "session-demo"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Wallet",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "balance"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "play"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rollback"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Gift",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "gift-create"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "gift-cancel"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Additional",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "testing"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "games"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "promo"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

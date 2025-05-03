@@ -1,0 +1,23 @@
+{
+  "unversionedId": "errors",
+  "id": "errors",
+  "title": "Error Format",
+  "description": "All errors come with HTTP STATUS 400. In json format. The exception is the request signature",
+  "source": "@site/docs/errors.md",
+  "sourceDirName": ".",
+  "slug": "/errors",
+  "permalink": "/errors",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Security",
+    "permalink": "/security"
+  },
+  "next": {
+    "title": "Create Real Session",
+    "permalink": "/session-create"
+  }
+}

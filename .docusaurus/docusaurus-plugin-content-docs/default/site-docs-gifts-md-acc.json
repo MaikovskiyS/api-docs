@@ -1,0 +1,14 @@
+{
+  "unversionedId": "gifts",
+  "id": "gifts",
+  "title": "Gift Results",
+  "description": "Reporting gift spins result to wallet...",
+  "source": "@site/docs/gifts.md",
+  "sourceDirName": ".",
+  "slug": "/gifts",
+  "permalink": "/docs/gifts",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "session-create",
+  "id": "session-create",
+  "title": "Create Real Session",
+  "description": "POST PROVIDER_URL/api/sessions/real",
+  "source": "@site/docs/session-create.md",
+  "sourceDirName": ".",
+  "slug": "/session-create",
+  "permalink": "/session-create",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Error Format",
+    "permalink": "/errors"
+  },
+  "next": {
+    "title": "Create Demo Session",
+    "permalink": "/session-demo"
+  }
+}

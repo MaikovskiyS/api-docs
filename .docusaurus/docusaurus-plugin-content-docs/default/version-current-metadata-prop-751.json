@@ -1,0 +1,216 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "sidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/",
+        "docId": "index"
+      },
+      {
+        "type": "link",
+        "label": "Workflow",
+        "href": "/workflow",
+        "docId": "workflow"
+      },
+      {
+        "type": "link",
+        "label": "Security",
+        "href": "/security",
+        "docId": "security"
+      },
+      {
+        "type": "link",
+        "label": "Error Format",
+        "href": "/errors",
+        "docId": "errors"
+      },
+      {
+        "type": "category",
+        "label": "Launch Game",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create Real Session",
+            "href": "/session-create",
+            "docId": "session-create"
+          },
+          {
+            "type": "link",
+            "label": "Create Demo Session",
+            "href": "/session-demo",
+            "docId": "session-demo"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Wallet",
+        "items": [
+          {
+            "type": "link",
+            "label": "Get Balance",
+            "href": "/balance",
+            "docId": "balance"
+          },
+          {
+            "type": "link",
+            "label": "Play",
+            "href": "/play",
+            "docId": "play"
+          },
+          {
+            "type": "link",
+            "label": "Rollback",
+            "href": "/rollback",
+            "docId": "rollback"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Gift",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create Gift Issue",
+            "href": "/gift-create",
+            "docId": "gift-create"
+          },
+          {
+            "type": "link",
+            "label": "Cancel Gift Issue",
+            "href": "/gift-cancel",
+            "docId": "gift-cancel"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Additional",
+        "items": [
+          {
+            "type": "link",
+            "label": "Partner Checklist for QA Testing",
+            "href": "/testing",
+            "docId": "testing"
+          },
+          {
+            "type": "link",
+            "label": "Games",
+            "href": "/games",
+            "docId": "games"
+          },
+          {
+            "type": "link",
+            "label": "Promo",
+            "href": "/promo",
+            "docId": "promo"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "balance": {
+      "id": "balance",
+      "title": "Get Balance",
+      "description": "POST WALLET_URL/play",
+      "sidebar": "sidebar"
+    },
+    "errors": {
+      "id": "errors",
+      "title": "Error Format",
+      "description": "All errors come with HTTP STATUS 400. In json format. The exception is the request signature",
+      "sidebar": "sidebar"
+    },
+    "games": {
+      "id": "games",
+      "title": "Games",
+      "description": "This section provides information about the games available for integration with our partners.",
+      "sidebar": "sidebar"
+    },
+    "gift-cancel": {
+      "id": "gift-cancel",
+      "title": "Cancel Gift Issue",
+      "description": "POST PROVIDER_URL/api/gifts/cancel",
+      "sidebar": "sidebar"
+    },
+    "gift-create": {
+      "id": "gift-create",
+      "title": "Create Gift Issue",
+      "description": "POST PROVIDER_URL/api/gifts/issue",
+      "sidebar": "sidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Introduction",
+      "description": "Terms",
+      "sidebar": "sidebar"
+    },
+    "play": {
+      "id": "play",
+      "title": "Play",
+      "description": "POST WALLET_URL/play",
+      "sidebar": "sidebar"
+    },
+    "promo": {
+      "id": "promo",
+      "title": "Promo",
+      "description": "This page provides access to promotional materials for our partners. Here you can find marketing assets, banners, and other resources to help promote Gamebeat products and games.",
+      "sidebar": "sidebar"
+    },
+    "rollback": {
+      "id": "rollback",
+      "title": "Rollback",
+      "description": "POST WALLET_URL/rollback",
+      "sidebar": "sidebar"
+    },
+    "security": {
+      "id": "security",
+      "title": "Security",
+      "description": "All requests should be signed using HMAC-SHA256 with AUTH_TOKEN as key and request body as message.",
+      "sidebar": "sidebar"
+    },
+    "session-create": {
+      "id": "session-create",
+      "title": "Create Real Session",
+      "description": "POST PROVIDER_URL/api/sessions/real",
+      "sidebar": "sidebar"
+    },
+    "session-demo": {
+      "id": "session-demo",
+      "title": "Create Demo Session",
+      "description": "POST PROVIDER_URL/api/sessions/demo",
+      "sidebar": "sidebar"
+    },
+    "testing": {
+      "id": "testing",
+      "title": "Partner Checklist for QA Testing",
+      "description": "Please complete the following actions to enable our QA team to start testing the integration:",
+      "sidebar": "sidebar"
+    },
+    "workflow": {
+      "id": "workflow",
+      "title": "Workflow",
+      "description": "",
+      "sidebar": "sidebar"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "API Integration",
+  "description": "Welcome to the API integration documentation. This site will help you integrate with our gaming and wallet services.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "next": {
+    "title": "Create Session",
+    "permalink": "/docs/session-create"
+  }
+}

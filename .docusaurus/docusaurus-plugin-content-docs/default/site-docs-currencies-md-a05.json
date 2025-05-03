@@ -1,0 +1,23 @@
+{
+  "unversionedId": "currencies",
+  "id": "currencies",
+  "title": "Currencies",
+  "description": "",
+  "source": "@site/docs/currencies.md",
+  "sourceDirName": ".",
+  "slug": "/currencies",
+  "permalink": "/docs/currencies",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Cancel Gift",
+    "permalink": "/docs/gift-cancel"
+  },
+  "next": {
+    "title": "Error Format",
+    "permalink": "/docs/errors"
+  }
+}

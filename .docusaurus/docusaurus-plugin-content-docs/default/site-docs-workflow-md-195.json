@@ -1,0 +1,23 @@
+{
+  "unversionedId": "workflow",
+  "id": "workflow",
+  "title": "Workflow",
+  "description": "",
+  "source": "@site/docs/workflow.md",
+  "sourceDirName": ".",
+  "slug": "/workflow",
+  "permalink": "/workflow",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Security",
+    "permalink": "/security"
+  }
+}

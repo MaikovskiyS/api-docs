@@ -1,0 +1,23 @@
+{
+  "unversionedId": "games",
+  "id": "games",
+  "title": "Games",
+  "description": "This section provides information about the games available for integration with our partners.",
+  "source": "@site/docs/games.md",
+  "sourceDirName": ".",
+  "slug": "/games",
+  "permalink": "/games",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Partner Checklist for QA Testing",
+    "permalink": "/testing"
+  },
+  "next": {
+    "title": "Promo",
+    "permalink": "/promo"
+  }
+}

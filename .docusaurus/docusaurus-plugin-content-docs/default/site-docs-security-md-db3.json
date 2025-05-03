@@ -1,0 +1,23 @@
+{
+  "unversionedId": "security",
+  "id": "security",
+  "title": "Security",
+  "description": "All requests should be signed using HMAC-SHA256 with AUTH_TOKEN as key and request body as message.",
+  "source": "@site/docs/security.md",
+  "sourceDirName": ".",
+  "slug": "/security",
+  "permalink": "/security",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Workflow",
+    "permalink": "/workflow"
+  },
+  "next": {
+    "title": "Error Format",
+    "permalink": "/errors"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "testing",
+  "id": "testing",
+  "title": "Partner Checklist for QA Testing",
+  "description": "Please complete the following actions to enable our QA team to start testing the integration:",
+  "source": "@site/docs/testing.md",
+  "sourceDirName": ".",
+  "slug": "/testing",
+  "permalink": "/testing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Cancel Gift Issue",
+    "permalink": "/gift-cancel"
+  },
+  "next": {
+    "title": "Games",
+    "permalink": "/games"
+  }
+}

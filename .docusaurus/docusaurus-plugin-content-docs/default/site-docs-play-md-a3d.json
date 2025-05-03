@@ -1,0 +1,23 @@
+{
+  "unversionedId": "play",
+  "id": "play",
+  "title": "Play",
+  "description": "POST WALLET_URL/play",
+  "source": "@site/docs/play.md",
+  "sourceDirName": ".",
+  "slug": "/play",
+  "permalink": "/play",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Get Balance",
+    "permalink": "/balance"
+  },
+  "next": {
+    "title": "Rollback",
+    "permalink": "/rollback"
+  }
+}

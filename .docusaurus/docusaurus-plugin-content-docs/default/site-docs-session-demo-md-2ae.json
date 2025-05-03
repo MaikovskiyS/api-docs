@@ -1,0 +1,23 @@
+{
+  "unversionedId": "session-demo",
+  "id": "session-demo",
+  "title": "Create Demo Session",
+  "description": "POST PROVIDER_URL/api/sessions/demo",
+  "source": "@site/docs/session-demo.md",
+  "sourceDirName": ".",
+  "slug": "/session-demo",
+  "permalink": "/session-demo",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Create Real Session",
+    "permalink": "/session-create"
+  },
+  "next": {
+    "title": "Get Balance",
+    "permalink": "/balance"
+  }
+}

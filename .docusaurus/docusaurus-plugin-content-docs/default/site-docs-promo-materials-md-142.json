@@ -1,0 +1,19 @@
+{
+  "unversionedId": "promo-materials",
+  "id": "promo-materials",
+  "title": "promo-materials",
+  "description": "",
+  "source": "@site/docs/promo-materials.md",
+  "sourceDirName": ".",
+  "slug": "/promo-materials",
+  "permalink": "/docs/promo-materials",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "testing",
+    "permalink": "/docs/testing"
+  }
+}

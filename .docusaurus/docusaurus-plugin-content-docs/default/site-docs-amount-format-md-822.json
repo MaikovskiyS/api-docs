@@ -1,0 +1,23 @@
+{
+  "unversionedId": "amount_format",
+  "id": "amount_format",
+  "title": "Amount Format",
+  "description": "",
+  "source": "@site/docs/amount_format.md",
+  "sourceDirName": ".",
+  "slug": "/amount_format",
+  "permalink": "/docs/amount_format",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Security",
+    "permalink": "/docs/security"
+  },
+  "next": {
+    "title": "Create Session",
+    "permalink": "/docs/session-create"
+  }
+}

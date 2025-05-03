@@ -1,0 +1,23 @@
+{
+  "unversionedId": "balance",
+  "id": "balance",
+  "title": "Get Balance",
+  "description": "POST WALLET_URL/play",
+  "source": "@site/docs/balance.md",
+  "sourceDirName": ".",
+  "slug": "/balance",
+  "permalink": "/balance",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Create Demo Session",
+    "permalink": "/session-demo"
+  },
+  "next": {
+    "title": "Play",
+    "permalink": "/play"
+  }
+}

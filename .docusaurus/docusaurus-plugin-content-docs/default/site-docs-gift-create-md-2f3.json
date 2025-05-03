@@ -1,0 +1,23 @@
+{
+  "unversionedId": "gift-create",
+  "id": "gift-create",
+  "title": "Create Gift Issue",
+  "description": "POST PROVIDER_URL/api/gifts/issue",
+  "source": "@site/docs/gift-create.md",
+  "sourceDirName": ".",
+  "slug": "/gift-create",
+  "permalink": "/gift-create",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Rollback",
+    "permalink": "/rollback"
+  },
+  "next": {
+    "title": "Cancel Gift Issue",
+    "permalink": "/gift-cancel"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "promo",
+  "id": "promo",
+  "title": "Promo",
+  "description": "This page provides access to promotional materials for our partners. Here you can find marketing assets, banners, and other resources to help promote Gamebeat products and games.",
+  "source": "@site/docs/promo.md",
+  "sourceDirName": ".",
+  "slug": "/promo",
+  "permalink": "/promo",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Games",
+    "permalink": "/games"
+  }
+}

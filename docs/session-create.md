@@ -41,7 +41,7 @@
 ## Success Response Parameters
 | Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `launch_options`  | object [Launch Options](#launch-options) | ✅       | Launch options |
+| launch_options  | object [Launch Options](#launch-options) | ✅       | Launch options |
 
 #### Launch Options
 | Parameter    | Type   | Required | Description                                  |

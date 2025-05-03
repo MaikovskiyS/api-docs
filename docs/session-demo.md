@@ -19,25 +19,25 @@
 
 #### URLs
 | Parameter      | Type   | Required | Description                                                                                   |
-|----------------|--------|----------|---------------------------------------------------------------------------------------------|
-| `return_url`   | string | ✅        | The URL to which the user will be redirected after game session |
+|-------------|--------|----------|---------------------------------------------------------------------------------------------|
+| return_url   | string | ✅        | The URL to which the user will be redirected after game session |
 
 ---
 ## Success Response Parameters
 | Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `launch_options`  | object [Launch Options](#launch-options) | ✅       | Launch options |
+| launch_options  | object [Launch Options](#launch-options) | ✅       | Launch options |
 
 #### Launch Options
 | Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `game_url`  | string | ✅       | The URL opened by the player creates a game session |
+| game_url  | string | ✅       | The URL opened by the player creates a game session |
 ---
 ## Failed Response Parameters
 | Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `code`     | int | ✅       | Error code [#reference](./errors.md) |
-| `message`  | string | ✅       | Error message |
+| code     | int | ✅       | Error code [#reference](./errors.md) |
+| message  | string | ✅       | Error message |
 
 ---
 ## Success Example  

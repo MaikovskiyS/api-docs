@@ -20,21 +20,21 @@
 ## Request Parameters
 | Parameter   | Type              | Required | Description |
 |-------------|-------------------|----------|-------------|
-| `user_id`   | string            | ✅       | User ID |
-| `game`      | string            | ✅       | Game Key |
-| `currency`  | string            | ✅       | Currency code |
-| `actions`   | array of [Action](#action)   | optional | Array of actions with the wallet.<br/><br/>ℹ️ There will be no field if the player has not won anything for all the bonus spins.|
-| `finished`  | boolean           | optional  | Marks the end of a series of rounds <br/><br/>ℹ️ [Finished](#finished) |
-| `game_id`   | uuid            | ✅  | Identifier of the spin series (round id) <br/><br/>ℹ️ [Game ID](#game-id) |
-| `token`     | string            | optional  | Session token. This field is optional and will be sent if you create a Session with the `session_token` parameter. |
+| user_id   | string            | ✅       | User ID |
+| game      | string            | ✅       | Game Key |
+| currency  | string            | ✅       | Currency code |
+| actions   | array of [Action](#action)   | optional | Array of actions with the wallet.<br/><br/>ℹ️ There will be no field if the player has not won anything for all the bonus spins.|
+| finished  | boolean           | optional  | Marks the end of a series of rounds <br/><br/>ℹ️ [Finished](#finished) |
+| game_id   | uuid            | ✅  | Identifier of the spin series (round id) <br/><br/>ℹ️ [Game ID](#game-id) |
+| token   | string            | optional  | Session token. This field is optional and will be sent if you create a Session with the session_token parameter. |
 
 #### Action
 
 | Parameter    | Type    | Required | Description |
 |--------------|---------|----------|-------------|
-| `action`     | string  | ✅       | Available actions:<br/>• <code>bet</code><br/>• <code>win</code> |
-| `action_id`  | uuid    | ✅       | Unique action ID |
-| `amount`     | uint64  | ✅       | The value to change the balance depending on the action |
+| action     | string  | ✅       | Available actions:<br/>• <code>bet</code><br/>• <code>win</code> |
+| action_id  | uuid    | ✅       | Unique action ID |
+| amount     | uint64  | ✅       | The value to change the balance depending on the action |
 
 ### __Parameters Notes__
 
@@ -50,25 +50,25 @@ When is a series of rounds considered completed (`finished == true`):
 
 ## Success Response Parameters
 
-| Name       | Type   | Required | Description     |
+| Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `balance`  | int64 | ✅       | User's current balance |
-| `game_id`  | uuid   | ✅       | Game ID         |
-| `transactions` | array of [Transaction](#transaction) | optional | Array of transactions |
+| balance  | int64 | ✅       | User's current balance |
+| game_id  | uuid   | ✅       | Game ID         |
+| transactions | array of [Transaction](#transaction) | optional | Array of transactions |
 
 #### Transaction
 
-| Name       | Type   | Description     |
+| Parameter       | Type   | Description     |
 |------------|--------|-----------------|
-| `action_id`  | uuid   | Action ID |
+| action_id  | uuid   | Action ID |
 
 ## Failed Response Parameters
 
-| Name       | Type   | Required | Description     |
+| Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `code`     | int | ✅       | Error code [#reference](./errors.md) |
-| `message`  | string | ✅       | Error message |
-| `balance`  | int64 | optional | Updated balance<br/><br/>ℹ️ It is mandatory to send it if an error is generated related to the balance or rate|
+| code     | int | ✅       | Error code [#reference](./errors.md) |
+| message  | string | ✅       | Error message |
+| balance  | int64 | optional | Updated balance<br/><br/>ℹ️ It is mandatory to send it if an error is generated related to the balance or rate|
 
 ---
 

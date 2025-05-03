@@ -6,17 +6,17 @@
 
 | Parameter   | Type   | Required | Description                 |
 |-------------|--------|----------|-----------------------------|
-| `issue_id`  | string | ✅        | ID of the gift spins        |
-| `casino_id` | string | ✅        | Casino ID                   |
+| issue_id  | string | ✅        | ID of the gift spins        |
+| casino_id | string | ✅        | Casino ID                   |
 
 ---
 
 ## Failed Response Parameters
 
-| Name      | Type   | Required | Description                                |
-|-----------|--------|----------|--------------------------------------------|
-| `code`    | number | ✅        | Error code ([see reference](./errors.md))  |
-| `message` | string | ✅        | Error message                              |
+| Parameter       | Type   | Required | Description                                |
+|------------|--------|----------|--------------------------------------------|
+| code    | number | ✅        | Error code ([see reference](./errors.md))  |
+| message | string | ✅        | Error message                              |
 
 ---
 

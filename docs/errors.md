@@ -5,11 +5,11 @@ error. This error comes from HTTP STATUS 403
 
 ## Error Response Parameters
 
-| Name       | Type   | Required | Description     |
+| Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `code`     | int    | ✅       | Error code      |
-| `message`  | string | ✅       | Error message   |
-| `balance`  | int64  | optional | User's balance  |
+| code     | int    | ✅       | Error code      |
+| message  | string | ✅       | Error message   |
+| balance  | int64  | optional | User's balance  |
 
 
 ## Example Error Response

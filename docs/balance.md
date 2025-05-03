@@ -4,26 +4,26 @@
 
 ## Request Parameters
 
-| Name       | Type   | Required | Description     |
+| Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `user_id`  | string | ✅       | User ID         |
-| `game`     | string | ✅       | Game Key        |
-| `currency` | string | ✅       | Currency code   |
-| `token`    | string |          | Session token. This field is optional and will be send if you create Session with param session_token parameter. |
+| user_id  | string | ✅       | User ID         |
+| game     | string | ✅       | Game Key        |
+| currency | string | ✅       | Currency code   |
+| token    | string |          | Session token. This field is optional and will be send if you create Session with param session_token parameter. |
 
 ---
 ## Success Response Parameters
 
-| Name       | Type   | Required | Description     |
+| Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `balance`  | int64 | ✅       | User's current balance |
+| balance  | int64 | ✅       | User's current balance |
 
 ## Failed Response Parameters
 
-| Name       | Type   | Required | Description     |
+| Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `code`     | int | ✅       | Error code  [#reference](./errors.md) |
-| `message`  | string | ✅       | Error message |
+| code     | int | ✅       | Error code  [#reference](./errors.md) |
+| message  | string | ✅       | Error message |
 ---
 
 ## Success Example

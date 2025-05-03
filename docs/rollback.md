@@ -26,43 +26,43 @@
 
 | Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `user_id`  | string | ✅        | User ID         |
-| `game`     | string | ✅        | Game Key        |
-| `currency` | string | ✅        | Currency code   |
-| `actions`   | array of [Action](#action)   | optional | Array of actions with the wallet|
-| `finished`  | boolean           | optional  | Definition of the end of a series of round <br/><br/>ℹ️ `finished` value from the **Play** request |
-| `game_id`   | uuid            | ✅  | Identifier of the spin series (round id) <br/><br/>ℹ️ `game_id` value from the **Play** request |
-| `token`     | string            | optional  | Session token. This field is optional and will be sent if you create a Session with the `session_token` parameter. |
+| user_id | string | ✅        | User ID         |
+| game     | string | ✅        | Game Key        |
+| currency | string | ✅        | Currency code   |
+| actions   | array of [Action](#action)   | optional | Array of actions with the wallet|
+| finished  | boolean           | optional  | Definition of the end of a series of round <br/><br/>ℹ️ `finished` value from the **Play** request |
+| game_id   | uuid            | ✅  | Identifier of the spin series (round id) <br/><br/>ℹ️ `game_id` value from the **Play** request |
+| token     | string            | optional  | Session token. This field is optional and will be sent if you create a Session with the session_token parameter. |
 
 #### Action
 | Parameter              | Type   | Required | Description            |
 |-------------------|--------|----------|-----------------------------|
-| `action`          | string | ✅        | Must be `rollback`          |
-| `action_id`       | uuid   | ✅        | Unique action ID      |
-| `original_action_id`| uuid | ✅        | Unique ID of the transaction to be rolled back.  <br/><br/>  ℹ️ `action_id` from the **Play** request |
+| action          | string | ✅        | Must be `rollback`          |
+| action_id       | uuid   | ✅        | Unique action ID      |
+| original_action_id| uuid | ✅        | Unique ID of the transaction to be rolled back.  <br/><br/>  ℹ️ `action_id` from the **Play** request |
 
 ---
 
 ## Success Response Parameters
 
-| Name       | Type   | Required | Description     |
+| Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `balance`  | int64 | ✅       | User's current balance |
-| `game_id`  | uuid   | ✅       | Game ID         |
-| `transactions` | array of [Transaction](#transaction) | optional | Array of completed transactions |
+| balance  | int64 | ✅       | User's current balance |
+| game_id  | uuid   | ✅       | Game ID         |
+| transactions | array of [Transaction](#transaction) | optional | Array of completed transactions |
 
 #### Transaction
 
-| Name       | Type   | Description     |
+| Parameter       | Type   | Description     |
 |------------|--------|-----------------|
-| `action_id`  | uuid   | Action ID <br/><br/>  ℹ️ `action_id` from the request|
+| action_id  | uuid   | Action ID <br/><br/>  ℹ️ `action_id` from the request|
 
 ## Failed Response Parameters
 
-| Name       | Type   | Required | Description     |
+| Parameter       | Type   | Required | Description     |
 |------------|--------|----------|-----------------|
-| `code`     | int | ✅       | Error code [#reference](./errors.md) |
-| `message`  | string | ✅       | Error message |
+| code     | int | ✅       | Error code [#reference](./errors.md) |
+| message  | string | ✅       | Error message |
 
 ---
 
